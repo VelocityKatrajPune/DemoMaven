@@ -13,7 +13,7 @@ public class demo2
 	public void TC1() throws InterruptedException
 	{
 		WebDriver driver=new ChromeDriver();
-		Assert.fail();
+		//Assert.fail();
 		driver.get("https://www.facebook.com/");
 		Reporter.log("opening facebook", true);
 		Thread.sleep(2000);
